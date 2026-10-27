@@ -1,0 +1,12 @@
+C:\Users\Prisc\Documents\Dax\fs-containers>docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+f3f25b84a7d7: Pull complete 
+edafa32f5d9e: Pull complete 
+21594acc2d8b: Download complete 
+Digest: sha256:19fcd1bf268f02b60aca3bd30bd8a6d9a11759a430e32921833e65f16d87348a
+Status: Downloaded newer image for ubuntu:latest
+root@f0adc39a5fc0:/# mkdir -p /usr/src/app
+root@f0adc39a5fc0:/# touch /usr/src/app/index.js
+root@f0adc39a5fc0:/# exit
+exit

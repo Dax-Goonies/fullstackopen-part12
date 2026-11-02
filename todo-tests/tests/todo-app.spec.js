@@ -89,8 +89,9 @@ test.describe('Backend API Tests', () => {
       data: { text: 'Stats test todo', done: false }
     });
     
-    // Then check statistics
-    const response = await request.get('/api/statistics');
+    // Then check statistics, changed route to /api/todos/statistics not /api/statistics,
+    // since the statistics endpoint is defined inside the /todos router in routes/todos.js
+    const response = await request.get('/api/todos/statistics');
     
     expect(response.status()).toBe(200);
     

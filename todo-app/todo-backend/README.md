@@ -18,7 +18,6 @@ The application has /todos crud which requires a MongoDB. Pass connection url wi
 
 Pass connection url with env `REDIS_URL`
 
-
 # Backend
 
 docker compose -f docker-compose.dev.yml up -d
